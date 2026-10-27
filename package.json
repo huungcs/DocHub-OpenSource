@@ -1,0 +1,28 @@
+{
+  "name": "dochub",
+  "version": "2.2.0",
+  "description": "Hệ thống quản lý, lưu trữ và phân quyền tài liệu đa người dùng tích hợp Google Drive & Supabase",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test tests/unit/*.test.js tests/cloud/*.test.js && npm run test:auth",
+    "test:unit": "node --test tests/unit/*.test.js",
+    "test:cloud": "node --test tests/cloud/*.test.js",
+    "test:auth": "node tests/unit/auth/cloud-bridge.test.js",
+    "db:migrate": "node scripts/run_migration.js",
+    "check": "npm test && npm run build"
+  },
+  "keywords": [
+    "dochub",
+    "google-drive",
+    "supabase",
+    "document-management",
+    "multi-tenant"
+  ],
+  "author": "huungcs",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.23.0"
+  }
+}

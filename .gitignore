@@ -1,0 +1,24 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.vercel
+
+# Local browser profile used for UI smoke tests
+.chrome-demo/

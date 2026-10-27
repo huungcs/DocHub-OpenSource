@@ -1,0 +1,29 @@
+# DocHub Robots Configuration
+# https://your-domain.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?*localQuery=
+
+# Allow major AI search and generative engines (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap Location
+Sitemap: https://your-domain.com/sitemap.xml

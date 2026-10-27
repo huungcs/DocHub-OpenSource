@@ -1,0 +1,183 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090f1d" />
+      <stop offset="50%" stop-color="#0f1a30" />
+      <stop offset="100%" stop-color="#14213d" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182542" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0e172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Brand Icon Gradient -->
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <!-- Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="indigoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="iconShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#2563eb" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow Effects -->
+  <circle cx="1000" cy="200" r="450" fill="url(#blueGlow)" />
+  <circle cx="200" cy="550" r="380" fill="url(#indigoGlow)" />
+
+  <!-- Outer Glass Container Card -->
+  <rect x="60" y="45" width="1080" height="540" rx="28" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5" filter="url(#shadow)" />
+
+  <!-- ==================== LEFT COLUMN ==================== -->
+
+  <!-- Pill Tag: ENTERPRISE CLOUD WORKSPACE -->
+  <g transform="translate(110, 85)">
+    <rect x="0" y="0" width="280" height="34" rx="17" fill="#1e293b" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="20" cy="17" r="4.5" fill="#38bdf8" />
+    <text x="34" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#7dd3fc" letter-spacing="1.2">
+      ENTERPRISE CLOUD WORKSPACE
+    </text>
+  </g>
+
+  <!-- Big Brand Title: DocHub. -->
+  <text x="110" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="850" fill="#ffffff" letter-spacing="-1.5">
+    DocHub<tspan fill="#38bdf8">.</tspan>
+  </text>
+
+  <!-- Subtitle / Headline -->
+  <text x="110" y="242" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#f8fafc" letter-spacing="-0.3">
+    Nền tảng Quản lý Tài liệu &amp; Tri thức Doanh nghiệp
+  </text>
+
+  <!-- Tagline -->
+  <text x="110" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#94a3b8">
+    Không gian lưu trữ tập trung · Cây thư mục đa cấp · Thông báo tức thì
+  </text>
+
+  <!-- Feature Pills (2 x 2 grid) -->
+  <g transform="translate(110, 325)">
+    <!-- Pill 1: Cây thư mục đa cấp -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="250" height="46" rx="14" fill="url(#pillGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="22" cy="23" r="10" fill="#38bdf8" fill-opacity="0.15" />
+      <text x="22" y="27.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">✓</text>
+      <text x="42" y="28.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Cây thư mục đa cấp</text>
+    </g>
+
+    <!-- Pill 2: Phân quyền theo vai trò -->
+    <g transform="translate(265, 0)">
+      <rect x="0" y="0" width="265" height="46" rx="14" fill="url(#pillGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="22" cy="23" r="10" fill="#38bdf8" fill-opacity="0.15" />
+      <text x="22" y="27.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">✓</text>
+      <text x="42" y="28.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Phân quyền theo Scope</text>
+    </g>
+
+    <!-- Pill 3: Tìm kiếm tiếng Việt -->
+    <g transform="translate(0, 60)">
+      <rect x="0" y="0" width="250" height="46" rx="14" fill="url(#pillGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="22" cy="23" r="10" fill="#38bdf8" fill-opacity="0.15" />
+      <text x="22" y="27.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">✓</text>
+      <text x="42" y="28.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Tìm kiếm tiếng Việt</text>
+    </g>
+
+    <!-- Pill 4: Google Drive Sync -->
+    <g transform="translate(265, 60)">
+      <rect x="0" y="0" width="265" height="46" rx="14" fill="url(#pillGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="22" cy="23" r="10" fill="#38bdf8" fill-opacity="0.15" />
+      <text x="22" y="27.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">✓</text>
+      <text x="42" y="28.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Google Drive Cloud Sync</text>
+    </g>
+  </g>
+
+  <!-- Domain Link with Icon at bottom-left -->
+  <g transform="translate(110, 502)">
+    <!-- Link Icon SVG -->
+    <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+    </svg>
+    <text x="28" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#38bdf8" letter-spacing="0.3">
+      your-domain.com
+    </text>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN: APP SHOWCASE CARD ==================== -->
+  <g transform="translate(710, 85)">
+    <!-- Card Base -->
+    <rect x="0" y="0" width="380" height="460" rx="26" fill="url(#cardBg)" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5" filter="url(#shadow)" />
+
+    <!-- Card Top Header Glow Line -->
+    <path d="M 26 0 L 354 0" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Center Squircle Icon Container -->
+    <g transform="translate(120, 55)">
+      <rect x="0" y="0" width="140" height="140" rx="32" fill="url(#iconGrad)" filter="url(#iconShadow)" />
+      
+      <!-- DocHub Document Symbol in White -->
+      <g transform="translate(35, 30)">
+        <!-- Folded Document Shape -->
+        <path d="M10 0 H46 L70 24 V74 A 6 6 0 0 1 64 80 H10 A 6 6 0 0 1 4 74 V6 A 6 6 0 0 1 10 0 Z" fill="#ffffff" />
+        <!-- Corner Fold -->
+        <path d="M46 0 V22 A 2 2 0 0 0 48 24 H70 Z" fill="#bfdbfe" />
+        <!-- Inner Document Lines -->
+        <rect x="18" y="38" width="34" height="6" rx="3" fill="#2563eb" />
+        <rect x="18" y="50" width="24" height="6" rx="3" fill="#2563eb" />
+        <rect x="18" y="62" width="30" height="6" rx="3" fill="#60a5fa" />
+      </g>
+    </g>
+
+    <!-- App Title on Card -->
+    <text x="190" y="245" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="-0.3">
+      DocHub Cloud
+    </text>
+
+    <!-- App Subtitle on Card -->
+    <text x="190" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#94a3b8" text-anchor="middle">
+      Bảo mật đa lớp · Đa nền tảng · Real-time
+    </text>
+
+    <!-- Feature Tags inside Card -->
+    <g transform="translate(45, 325)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="290" height="42" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1" />
+      <text x="145" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#7dd3fc" text-anchor="middle">
+        ⚡ Tự động đồng bộ Google Drive
+      </text>
+
+      <!-- Tag 2 -->
+      <rect x="0" y="52" width="290" height="42" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1" />
+      <text x="145" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#7dd3fc" text-anchor="middle">
+        🔒 Quản trị phân quyền Enterprise RBAC
+      </text>
+    </g>
+  </g>
+</svg>
